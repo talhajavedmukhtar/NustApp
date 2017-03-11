@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nust.orientationapp.addEventActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/eventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name for Event"/>
+        <EditText
+            android:id="@+id/eventPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Where will the event take place?"/>
+        <EditText
+            android:id="@+id/eventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date for Event"
+            android:onClick="showDatePickerDialog"
+            android:focusableInTouchMode="false"/>
+        <EditText
+            android:id="@+id/eventStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Starting Time for Event"
+            android:onClick="showStartTimePickerDialog"
+            android:focusableInTouchMode="false"/>
+        <EditText
+            android:id="@+id/eventEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ending Time for Event"
+            android:onClick="showEndTimePickerDialog"
+            android:focusableInTouchMode="false"/>
+        <Button
+            android:id="@+id/setPlace"
+            android:text="Set Place for Event"
+            android:onClick="setPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:id="@+id/save"
+        android:layout_gravity="right|bottom"
+        android:onClick="saveEvent"
+        android:textColor="#ffffff"/>
+
+</FrameLayout>

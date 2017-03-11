@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">OrientationApp</string>
+
+    <string-array name="profileTypes">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+
+    <string-array name="schools">
+        <item>SEECS</item>
+        <item>SCEE</item>
+        <item>SCME</item>
+        <item>NBS</item>
+        <item>SADA</item>
+        <item>SMME</item>
+        <item>SNS</item>
+        <item>S3H</item>
+        <item>ASAB</item>
+    </string-array>
+
+    <string-array name="schoolsSearch">
+        <item>No preference</item>
+        <item>SEECS</item>
+        <item>SCEE</item>
+        <item>SCME</item>
+        <item>NBS</item>
+        <item>SADA</item>
+        <item>SMME</item>
+        <item>SNS</item>
+        <item>S3H</item>
+        <item>ASAB</item>
+    </string-array>
+
+    <string-array name="hostelite">
+        <item>No preference</item>
+        <item>Hostelite</item>
+        <item>Day Scholar</item>
+    </string-array>
+
+    <string-array name="SEECSc">
+        <item>Bachelor of Electrical Engineering</item>
+        <item>Bachelor of Software Engineering</item>
+        <item>Bachelor of Science in Computer Science</item>
+    </string-array>
+
+    <string-array name="SCEEc">
+        <item>Bachelor of Environmental Engineering</item>
+        <item>Bachelor of Geoinformatics Engineering</item>
+        <item>Bachelor of Civil Engineering</item>
+    </string-array>
+
+    <string-array name="SCMEc">
+        <item>Bachelor of Chemical Engineering</item>
+        <item>Bachelor of Materials Engineering</item>
+    </string-array>
+
+    <string-array name="NBSc">
+        <item>Bachelor of Business Administration</item>
+        <item>Bachelor of Science in Accounting and Finance</item>
+    </string-array>
+
+    <string-array name="SADAc">
+        <item>Bachelor of Architecture</item>
+        <item>Bachelor of Industrial Design</item>
+    </string-array>
+
+    <string-array name="SMMEc">
+        <item>Bachelor of Mechanical Engineering</item>
+    </string-array>
+
+    <string-array name="SNSc">
+        <item>Bachelor of Science in Mathematics</item>
+        <item>Bachelor of Science in Physics</item>
+    </string-array>
+
+    <string-array name="S3Hc">
+        <item>Bachelor of Science in Economics</item>
+        <item>Bachelor of Science in Mass Communication</item>
+        <item>Bachelor of Public Administration</item>
+    </string-array>
+
+    <string-array name="ASABc">
+        <item>Bachelor of Science in Applied Biosciences</item>
+    </string-array>
+
+    <string-array name="placeTypes">
+        <item>Schools</item>
+        <item>Cafes</item>
+        <item>Mosques</item>
+        <item>Banks</item>
+        <item>Girls Hostels</item>
+        <item>Boys Hostels</item>
+        <item>Gyms</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "406230337159",
+    "firebase_url": "https://orientationapp-328eb.firebaseio.com",
+    "project_id": "orientationapp-328eb",
+    "storage_bucket": "orientationapp-328eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406230337159:android:8052e8bde815bdc0",
+        "android_client_info": {
+          "package_name": "nust.orientationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406230337159-343oais42sf9kkgkdo8njq536skdve3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ReK-KFAqGO-hMekz6c3JQSYuwL2TRd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
