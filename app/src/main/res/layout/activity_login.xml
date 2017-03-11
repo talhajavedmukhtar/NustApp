@@ -55,13 +55,29 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New? Register Here"
+        android:text="Register Student"
         android:id="@+id/register"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:onClick="goToSignUp"
         android:padding="10dp"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Register Club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_club"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="1dp"
+        android:textColor="#ffffff" />
 
 </RelativeLayout>
 

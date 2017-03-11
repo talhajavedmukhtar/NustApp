@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Club Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="58dp"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:text="Club Email:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/club_name"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginTop="37dp"
+        android:id="@+id/club_email_text" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/club_email_text"
+        android:layout_alignLeft="@+id/club_email_text"
+        android:layout_alignStart="@+id/club_email_text"
+        android:layout_marginTop="44dp"
+        android:id="@+id/club_password_text" />
+
+    <TextView
+        android:text="Chair Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/club_password_text"
+        android:layout_alignStart="@+id/club_password_text"
+        android:id="@+id/chair_name_text" />
+
+    <TextView
+        android:text="Vice Chair Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vicechair_name_text"
+        android:layout_below="@+id/chair_name_text"
+        android:layout_alignLeft="@+id/chair_name_text"
+        android:layout_alignStart="@+id/chair_name_text"
+        android:layout_marginTop="33dp"
+        android:paddingTop="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_below="@+id/club_name"
+        android:layout_alignLeft="@+id/club_name"
+        android:layout_alignStart="@+id/club_name"
+        android:layout_marginTop="23dp"
+        android:id="@+id/club_email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:id="@+id/chair_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/vicechair_name_text"
+        android:layout_alignLeft="@+id/chair_name"
+        android:layout_alignStart="@+id/chair_name"
+        android:id="@+id/vicechair_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/club_description_editview"
+        android:padding="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/vicechair_name"
+        android:layout_alignLeft="@+id/vicechair_name"
+        android:layout_alignStart="@+id/vicechair_name" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_alignBaseline="@+id/club_password_text"
+        android:layout_alignBottom="@+id/club_password_text"
+        android:layout_alignLeft="@+id/club_email"
+        android:layout_alignStart="@+id/club_email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/club_name"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:text="Club Description:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/club_description_textview"
+        android:layout_alignBaseline="@+id/club_description_editview"
+        android:layout_alignBottom="@+id/club_description_editview"
+        android:layout_alignLeft="@+id/vicechair_name_text"
+        android:layout_alignStart="@+id/vicechair_name_text" />
+</RelativeLayout>
